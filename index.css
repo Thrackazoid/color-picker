@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+  background-color: #3D4B60;
+  color: white;
+  border-radius: 5px;
+  height: 45px 
+}
+
+
+#color--grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 75vh;
+    outline: rebeccapurple 1px solid;
+}
+
+.grid-item {
+    outline: black 1px solid
+}
+
+form {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background: #1F2937;
+    width: 100%;
+    height: 11.75vh;
+}
+
+#bottom-info-bar {
+    display: inherit;
+    justify-content: space-around;
+    background-color: #1F2937;
+    width: 100%;
+    color: white
+}
+
+input {
+    height: 45px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+header {
+    background: #1F2937;
+}
+
+select {
+    width: 250px;
+    color: white;
+    background: #1F2937;
+    height: 50px;
+    border-radius: 5px;
+    border-color: white;
+    text-indent: 6px;
+}
